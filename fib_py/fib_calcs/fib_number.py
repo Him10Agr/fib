@@ -7,4 +7,4 @@ def fib_num(number: int) -> Optional[int]:
     elif number <= 1:
         return number
     else:
-        fib_num(number - 1) + fib_num(number - 2)
+        return fib_num(number - 1) + fib_num(number - 2)
