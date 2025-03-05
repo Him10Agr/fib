@@ -12,3 +12,7 @@ def fib_numb() -> None:
                         help="Fibonacci number to be calculated")
     args = parser.parse_args()
     print(f"Fibonacci number is: {fib_num(number=args.number)}")
+
+if __name__ == "__main__":
+
+    fib_numb()

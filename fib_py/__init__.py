@@ -1,2 +1,4 @@
-def say_hello() -> None:
-    print("The fib module is saying hello")
+"""from . import cmd
+from . import fib_calcs
+
+__all__ = ['fib_calcs', 'cmd']"""
