@@ -1,9 +1,9 @@
-from typing import Optional
-
-def fib_num(number: int) -> Optional[int]:
+def fib_num(number: int) -> int:
 
     if number < 0 :
-        return None
+        raise ValueError(
+            "Number has be to non-negative"
+        )
     elif number <= 1:
         return number
     else:

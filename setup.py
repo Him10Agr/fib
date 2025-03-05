@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="fib.py",
+    name="fib_him10agr.py",
     version="0.0.1",
     author="Himanshu Agrawal",
     author_email="himanshuagr.c2@gmail.com",
@@ -17,7 +17,7 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
-        "Operating System :: OS Independant",
+        "Operating System :: OS Independent",
     ],
     python_requires=">=3",
     tests_require = ['pytest'],
