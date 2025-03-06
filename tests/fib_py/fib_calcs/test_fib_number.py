@@ -1,5 +1,5 @@
 from unittest import main, TestCase
-from fib_py.fib_calcs.fib_number import fib_num
+from fib_py.fib_calcs import fib_num
 
 class RecurringFibNumberTest(TestCase):
 
