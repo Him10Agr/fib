@@ -1,11 +1,15 @@
 from setuptools import find_packages, setup
+import pathlib
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open(str(pathlib.Path(__file__).parent.absolute()) + "fib/version.py", "r") as fh:
+    version = fh.read().split("=")[1].replace("'", "")
+
 setup(
     name="fib_him10agr.py",
-    version="0.0.1",
+    version=version,
     author="Himanshu Agrawal",
     author_email="himanshuagr.c2@gmail.com",
     description="Calculates the fibonacci number",
